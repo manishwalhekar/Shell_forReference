@@ -74,4 +74,4 @@ while [ "$input" != "exit" ]; do
     echo "You typed: $input"
 done
 
-#added using local linux main branch
+#added using local linux main branch.
