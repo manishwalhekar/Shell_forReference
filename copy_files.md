@@ -1,4 +1,4 @@
-# Shell_forReference  
+# Copy files command 
 In Bash scripting, command-line arguments are accessed using positional parameters:  
 
 **$0** - The script's name.  
