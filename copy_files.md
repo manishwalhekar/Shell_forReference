@@ -5,8 +5,8 @@ In Bash scripting, command-line arguments are accessed using positional paramete
 **$1** - The first argument.  
 **$2** - The second argument.  
 **$#** - The number of arguments passed.  
-**$@** - All arguments passed to the script.  
-**$*** - Represents all command-line arguments, as separate words  
+**$@** - treats each argument as a separate string → preserves quotes.  
+**$*** - treats all arguments as one single string.   
 **$?** - Exit status of previous command  
 
 **if [ ! -e "$source_file" ]; then**  
